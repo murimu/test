@@ -1,0 +1,95 @@
+body {
+  background: rgb(255, 124, 124);
+  color: MidnightBlue;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: red;
+  font-family: 'Noto Serif KR', sans-serif;
+}
+
+.contenedor {
+  width: 50%;
+  margin: 200px 50px 500px 10px;
+  display: inline-block;
+}
+
+img {
+  opacity: 0.5;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  width: 35%;
+  height: auto;
+  display: block;
+}
+
+img:hover {
+  opacity: 1;
+  -webkit-filter: none; /* Safari 6.0 - 9.0 */
+  filter: none;
+}
+
+div {
+  background: #fffd89;
+  border: 2px solid #000000;
+  padding: 25px;
+}
+
+.menu {
+  background: rgba(137, 176, 255, 0.5);
+}
+
+.azul {
+  color: blue;
+}
+
+.rojo {
+  color: red;
+}
+
+.hola {
+  width: 25%;
+  display: inline-block;
+  background: url("https://2.bp.blogspot.com/-MbfuajbYg4k/WZbWeUwPg2I/AAAAAAAAONs/3pOYG69c36soKPBYm1uy3O6eCiZCwN_vQCLcBGAs/s1600/monta%25C3%25B1a.jpg");
+}
+
+.hola:hover {
+  background: url("https://album.es/fotos/uploads/imagenes/thumbs/lago-de-montana_DSC03824_1200px.jpg");
+}
+
+svg {
+    width: 50%;
+}
+.pepito{
+  fill: blue;
+}
+
+.pepito:hover {
+  fill: red;
+}
+
+.morado {
+  background: RebeccaPurple;
+  width: 25%;
+  display: inline-block;
+  text-align: right;
+}
+
+.rosado {
+  background: PaleVioletRed;
+  width: 25%;
+  display: inline-block;
+  text-align: right;
+}
+
+.celeste {
+  background: LightSkyBlue;
+  width: 25%;
+  display: inline-block;
+  text-align: right;
+}
